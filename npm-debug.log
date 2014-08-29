@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'Crotery/tsc' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'Crotery/tsc', null ]
+6 verbose cache add name=undefined spec="Crotery/tsc" args=["Crotery/tsc",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'Crotery/tsc',
+7 verbose parsed url   path: 'Crotery/tsc',
+7 verbose parsed url   href: 'Crotery/tsc' }
+8 silly lockFile f2917b11-Crotery-tsc Crotery/tsc
+9 verbose lock Crotery/tsc /home/alatar/.npm/f2917b11-Crotery-tsc.lock
+10 info maybeGithub Attempting Crotery/tsc from git://github.com/Crotery/tsc
+11 silly lockFile e43944ea-git-github-com-Crotery-tsc git://github.com/Crotery/tsc
+12 verbose lock git://github.com/Crotery/tsc /home/alatar/.npm/e43944ea-git-github-com-Crotery-tsc.lock
+13 verbose addRemoteGit [ 'git://github.com/Crotery/tsc', 'master' ]
+14 verbose git remote.origin.url git://github.com/Crotery/tsc
+15 verbose git fetch -a origin (git://github.com/Crotery/tsc)
+16 verbose git rev-list -n1 master 9c74f125882c97bb980ec7bc132aa2352a8ca4ae
+17 verbose resolved git url git://github.com/Crotery/tsc#9c74f125882c97bb980ec7bc132aa2352a8ca4ae
+18 verbose tar unpack /tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz
+19 silly lockFile a13f5ce1--4830529873725027-tmp-tgz-unpack tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz-unpack
+20 verbose lock tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz-unpack /home/alatar/.npm/a13f5ce1--4830529873725027-tmp-tgz-unpack.lock
+21 silly lockFile 2306ee6d-98422-0-4830529873725027-tmp-tgz tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz
+22 verbose lock tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz /home/alatar/.npm/2306ee6d-98422-0-4830529873725027-tmp-tgz.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry
+25 silly gunzTarPerm modified mode [ '', 509, 493 ]
+26 silly gunzTarPerm extractEntry bin/
+27 silly gunzTarPerm modified mode [ 'bin/', 509, 493 ]
+28 silly gunzTarPerm extractEntry bin/lib.core.d.ts
+29 silly gunzTarPerm modified mode [ 'bin/lib.core.d.ts', 436, 420 ]
+30 silly gunzTarPerm extractEntry bin/lib.d.ts
+31 silly gunzTarPerm modified mode [ 'bin/lib.d.ts', 436, 420 ]
+32 silly gunzTarPerm extractEntry bin/lib.dom.d.ts
+33 silly gunzTarPerm modified mode [ 'bin/lib.dom.d.ts', 436, 420 ]
+34 silly gunzTarPerm extractEntry bin/lib.scriptHost.d.ts
+35 silly gunzTarPerm modified mode [ 'bin/lib.scriptHost.d.ts', 436, 420 ]
+36 silly gunzTarPerm extractEntry bin/lib.webworker.d.ts
+37 silly gunzTarPerm modified mode [ 'bin/lib.webworker.d.ts', 436, 420 ]
+38 silly gunzTarPerm extractEntry bin/tsc.js
+39 silly gunzTarPerm modified mode [ 'bin/tsc.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry bin/typescriptServices.js
+41 silly gunzTarPerm modified mode [ 'bin/typescriptServices.js', 436, 420 ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+44 silly lockFile a13f5ce1--4830529873725027-tmp-tgz-unpack tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz-unpack
+45 silly lockFile a13f5ce1--4830529873725027-tmp-tgz-unpack tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz-unpack
+46 silly lockFile 2306ee6d-98422-0-4830529873725027-tmp-tgz tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz
+47 silly lockFile 2306ee6d-98422-0-4830529873725027-tmp-tgz tar:///tmp/npm-13097-Mua71hwX/1409288598422-0.4830529873725027/tmp.tgz
+48 silly lockFile e43944ea-git-github-com-Crotery-tsc git://github.com/Crotery/tsc
+49 silly lockFile e43944ea-git-github-com-Crotery-tsc git://github.com/Crotery/tsc
+50 silly lockFile f2917b11-Crotery-tsc Crotery/tsc
+51 silly lockFile f2917b11-Crotery-tsc Crotery/tsc
+52 silly resolved [ { name: 'typescript',
+52 silly resolved     author: { name: 'Microsoft Corp.' },
+52 silly resolved     homepage: 'http://typescriptlang.org/',
+52 silly resolved     version: '1.0.1',
+52 silly resolved     licenses: [ [Object] ],
+52 silly resolved     description: 'TypeScript is a language for application scale JavaScript development',
+52 silly resolved     keywords: [ 'TypeScript', 'Microsoft', 'compiler', 'language', 'javascript' ],
+52 silly resolved     bugs: { url: 'http://typescript.codeplex.com/workitem/list/basic' },
+52 silly resolved     repository: { type: 'git', url: 'https://git01.codeplex.com/typescript' },
+52 silly resolved     preferGlobal: true,
+52 silly resolved     main: './bin/typescript.js',
+52 silly resolved     bin: { tsc: './bin/tsc' },
+52 silly resolved     engines: { node: '>=0.8.0' },
+52 silly resolved     devDependencies: { jake: 'latest' },
+52 silly resolved     readme: '# TypeScript\r\n\r\nScalable JavaScript development with types, classes and modules.\r\n\r\n## Install\r\n\r\n  npm install -g typescript\r\n\r\n## Usage\r\n\r\n  tsc hello.ts\r\n  \r\n\r\n## Build\r\n\r\n1.  Install Node if you haven\'t already (http://nodejs.org/)\r\n2.  Install Jake, the tool we use to build our compiler (https://github.com/mde/jake). To do this, run "npm install -g jake".\r\n3.  To use jake, run one of the following commands: \r\n    - jake local - This builds the compiler. The output is in built/local in the public directory \r\n    - jake clean - deletes the build compiler \r\n    - jake LKG - This replaces the LKG (last known good) version of the compiler with the built one.\r\n        - This is a bootstrapping step to be executed whenever the built compiler reaches a stable state.\r\n    - jake tests - This builds the test infrastructure, using the built compiler. \r\n    - jake runtests - This runs the tests, using the built compiler and built test infrastructure. \r\n        - You can also override the host or specify a test for this command. Use host=<hostName> or tests=<testPath>. \r\n    - jake baseline-accept - This replaces the baseline test results with the results obtained from jake runtests. \r\n    - jake -T lists the above commands. \r\n',
+52 silly resolved     readmeFilename: 'README.txt',
+52 silly resolved     _id: 'typescript@1.0.1',
+52 silly resolved     _shasum: 'e8eacde3084a091d3fe29b60ac5862252662a25a',
+52 silly resolved     _from: 'git://github.com/Crotery/tsc',
+52 silly resolved     _resolved: 'git://github.com/Crotery/tsc#9c74f125882c97bb980ec7bc132aa2352a8ca4ae',
+52 silly resolved     _fromGithub: true } ]
+53 info install typescript@1.0.1 into /usr/lib
+54 info installOne typescript@1.0.1
+55 verbose lib/node_modules/typescript unbuild
+56 verbose tar unpack /home/alatar/.npm/typescript/1.0.1/package.tgz
+57 silly lockFile 087e9b07--usr-lib-node-modules-typescript tar:///usr/lib/node_modules/typescript
+58 verbose lock tar:///usr/lib/node_modules/typescript /home/alatar/.npm/087e9b07--usr-lib-node-modules-typescript.lock
+59 silly lockFile cd547b58-npm-typescript-1-0-1-package-tgz tar:///home/alatar/.npm/typescript/1.0.1/package.tgz
+60 verbose lock tar:///home/alatar/.npm/typescript/1.0.1/package.tgz /home/alatar/.npm/cd547b58-npm-typescript-1-0-1-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry
+63 silly gunzTarPerm modified mode [ '', 509, 493 ]
+64 silly gunzTarPerm extractEntry bin/
+65 silly gunzTarPerm modified mode [ 'bin/', 509, 493 ]
+66 silly gunzTarPerm extractEntry bin/lib.core.d.ts
+67 silly gunzTarPerm modified mode [ 'bin/lib.core.d.ts', 436, 420 ]
+68 silly gunzTarPerm extractEntry bin/lib.d.ts
+69 silly gunzTarPerm modified mode [ 'bin/lib.d.ts', 436, 420 ]
+70 silly gunzTarPerm extractEntry bin/lib.dom.d.ts
+71 silly gunzTarPerm modified mode [ 'bin/lib.dom.d.ts', 436, 420 ]
+72 silly gunzTarPerm extractEntry bin/lib.scriptHost.d.ts
+73 silly gunzTarPerm modified mode [ 'bin/lib.scriptHost.d.ts', 436, 420 ]
+74 silly gunzTarPerm extractEntry bin/lib.webworker.d.ts
+75 silly gunzTarPerm modified mode [ 'bin/lib.webworker.d.ts', 436, 420 ]
+76 silly gunzTarPerm extractEntry bin/tsc.js
+77 silly gunzTarPerm modified mode [ 'bin/tsc.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry bin/typescriptServices.js
+79 silly gunzTarPerm modified mode [ 'bin/typescriptServices.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+82 silly lockFile 087e9b07--usr-lib-node-modules-typescript tar:///usr/lib/node_modules/typescript
+83 silly lockFile 087e9b07--usr-lib-node-modules-typescript tar:///usr/lib/node_modules/typescript
+84 silly lockFile cd547b58-npm-typescript-1-0-1-package-tgz tar:///home/alatar/.npm/typescript/1.0.1/package.tgz
+85 silly lockFile cd547b58-npm-typescript-1-0-1-package-tgz tar:///home/alatar/.npm/typescript/1.0.1/package.tgz
+86 info preinstall typescript@1.0.1
+87 verbose readDependencies using package.json deps
+88 verbose readDependencies using package.json deps
+89 silly resolved []
+90 verbose about to build /usr/lib/node_modules/typescript
+91 info build /usr/lib/node_modules/typescript
+92 verbose linkStuff [ true, '/usr/lib/node_modules', true, '/usr/lib/node_modules' ]
+93 info linkStuff typescript@1.0.1
+94 verbose linkBins typescript@1.0.1
+95 verbose link bins [ { tsc: './bin/tsc' }, '/usr/bin', true ]
+96 verbose linkMans typescript@1.0.1
+97 verbose rebuildBundles typescript@1.0.1
+98 verbose lib/node_modules/typescript unbuild
+99 info preuninstall typescript@1.0.1
+100 info uninstall typescript@1.0.1
+101 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild typescript@1.0.1
+102 verbose /usr/bin,[object Object] binRoot
+103 info postuninstall typescript@1.0.1
+104 error Error: ENOENT, chmod '/usr/lib/node_modules/typescript/bin/tsc'
+105 error If you need help, you may report this *entire* log,
+105 error including the npm and node versions, at:
+105 error     <http://github.com/npm/npm/issues>
+106 error System Linux 3.11.0-18-generic
+107 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "Crotery/tsc"
+108 error cwd /home/alatar/proj/tsc
+109 error node -v v0.10.30
+110 error npm -v 1.4.21
+111 error path /usr/lib/node_modules/typescript/bin/tsc
+112 error code ENOENT
+113 error errno 34
+114 verbose exit [ 34, true ]
